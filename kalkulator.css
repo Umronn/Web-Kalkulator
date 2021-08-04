@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.card {
+  padding: 10px;
+  box-shadow: 5px 5px 10px black;
+}
+.kontainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: auto;
+}
+.tombol {
+  display: flex;
+}
+.angka {
+  flex-basis: 25%;
+  background-color: cadetblue;
+  border: solid 1px black;
+  padding: 30px 20px;
+  text-align: center;
+}
+.bersih {
+  flex-basis: 25%;
+  background-color: cadetblue;
+  border: solid 1px black;
+  padding: 30px 20px;
+  text-align: center;
+}
+.layar {
+  background-color: black;
+  color: white;
+  font-size: 2em;
+  padding: 40px 30px;
+}
+.hasil {
+  flex-basis: 50%;
+  background-color: orange;
+}
+.negative,
+.operator {
+  background-color: orange;
+}
+.angka:hover {
+  font-weight: bolder;
+}
